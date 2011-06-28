@@ -84,6 +84,6 @@ class pillboxApi extends APIBaseClass{
 		}
 		
 		$data['key'] = self::$api_key;
-		return self::_request($api_url,$data);
+		return self::_request(self::$api_url,$data);
 	}
 }
